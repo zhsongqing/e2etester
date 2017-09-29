@@ -4,12 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "mos": "node ./startup.js ./tests/mos",
-    "demo": "node ./startup.js ./tests/demo.js",
     "start": "node ./startup.js",
     "selenium-setup": "node ./build/selenium-setup.js",
-    "selenium-start": "node ./build/selenium-start.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "selenium-start": "node ./build/selenium-start.js"
   },
   "keywords": [],
   "author": "",
