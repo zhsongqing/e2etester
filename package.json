@@ -1,0 +1,20 @@
+{
+  "name": "e2etester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./startup.js",
+    "selenium-setup": "node ./build/selenium-setup.js",
+    "selenium-start": "node ./build/selenium-start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nightwatch": "^0.9.16",
+    "selenium-standalone": "^6.9.0"
+  },
+  "dependencies": {}
+}
